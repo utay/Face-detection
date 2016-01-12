@@ -11,7 +11,5 @@ Compilation:
 make 
 
 Launch the application: 
-
 cd GTK/
-
 ./windows
