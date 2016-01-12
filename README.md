@@ -6,7 +6,7 @@ Requirements:
 - libgtk-3-dev (gtk+ version 3.16)
 - libsdl2-dev
 
-Compilation: 
+Compilation: \n
 make 
 
 Launch the application: 
