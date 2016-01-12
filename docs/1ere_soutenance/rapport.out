@@ -1,0 +1,42 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Groupes}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Fran\347ois Dexemple}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Tristan Luiggi}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Jean-Fran\347ois Ngo}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Yannick Utard}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Nature et but du projet}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Qu'est-ce que ?}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Principe}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{R\350gles \340 respecter}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Objectifs d\351taill\351s}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Soutenance 1}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Traitement d'un visage :}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Construction d'une base de donn\351es de caract\351ristiques de visage avec les noms associ\351s :}{subsection.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Soutenance finale}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Extraction de la liste des personnes :}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Interface utilisateur permettant d'effectuer toutes les op\351rations, notamment :}{subsection.4.2}% 17
+\BOOKMARK [1][-]{section.5}{Les t\342ches effectu\351es}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Tableau r\351capitulatif}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.2}{Le traitement d'image}{section.5}% 20
+\BOOKMARK [2][-]{subsection.5.3}{La base de donn\351es}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.1}{La cr\351ation}{subsection.5.3}% 22
+\BOOKMARK [3][-]{subsubsection.5.3.2}{L'insertion}{subsection.5.3}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.3}{La suppression}{subsection.5.3}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.4}{L'affichage}{subsection.5.3}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.5}{La destruction de la base}{subsection.5.3}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.6}{L'insertion en masse}{subsection.5.3}% 27
+\BOOKMARK [2][-]{subsection.5.4}{La m\351thode de Viola et Jones}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.4.1}{L'image int\351grale}{subsection.5.4}% 29
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Les caract\351ristiques pseudo-Haar}{subsection.5.4}% 30
+\BOOKMARK [3][-]{subsubsection.5.4.3}{L'apprentissage et la classification}{subsection.5.4}% 31
+\BOOKMARK [3][-]{subsubsection.5.4.4}{Adaboost}{subsection.5.4}% 32
+\BOOKMARK [3][-]{subsubsection.5.4.5}{La cascade de classifieurs}{subsection.5.4}% 33
+\BOOKMARK [3][-]{subsubsection.5.4.6}{La d\351tection}{subsection.5.4}% 34
+\BOOKMARK [2][-]{subsection.5.5}{Les eigenfaces}{section.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Pr\351 traitement}{subsection.5.5}% 36
+\BOOKMARK [3][-]{subsubsection.5.5.2}{Matrice de covariance et valeurs propres}{subsection.5.5}% 37
+\BOOKMARK [2][-]{subsection.5.6}{L'interface graphique}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.6.1}{La programmation \351v\351nementiel}{subsection.5.6}% 39
+\BOOKMARK [3][-]{subsubsection.5.6.2}{La forme}{subsection.5.6}% 40
+\BOOKMARK [3][-]{subsubsection.5.6.3}{Le fond}{subsection.5.6}% 41
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 42

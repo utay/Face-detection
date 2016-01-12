@@ -1,0 +1,167 @@
+
+%POUR COMPILER ASSURER VOUS D'AVOIR LE PAQUET SUIVANT POUR LINUX : TEXTLIVE-LATEXEXTRA
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage {hyperref} % couleur du tableau
+\usepackage{xcolor}	  % couleur du tableau
+\usepackage{graphicx}
+\usepackage{multirow} %Utilisation pour fusion case tableau%
+\usepackage{colortbl} %COuleur Tableau%
+\usepackage{fancyhdr}
+\usepackage{times}
+\usepackage[final]{pdfpages} 
+%\usepackage[left=4cm,right=3cm,top=2cm,bottom=2.5cm]{geometry} %FUCKIN MARGE DE PETIT
+\usepackage{setspace}
+%\setstretch{1,5} % FUCKING INTERLIGNE DE PETIT
+\author{Francois}
+\sloppy
+
+\title{Cahier des charges}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{Info Spé}
+\fancyhead[R]{Epita 2019}
+\fancyfoot[L]{Facificator}
+
+ \pagestyle{fancy}
+
+\begin{document}
+
+%Page de garde%
+
+
+\begin{titlepage}
+
+
+\flushright \includegraphics[scale=.15]{Pictures/EPITA_LOGO_DEF.png}
+\flushright Promo 2019
+
+
+
+\begin{center}
+
+
+\hspace{1.5cm}
+{\Huge Rapport de 1ère soutenance} 
+\newline
+\newline
+\newline
+\newline
+\newline
+%\includegraphics[scale=.35]{}
+Ici Logo
+\end{center}
+\begin{center}
+
+%\vspace{0.7cm}
+\end{center}
+\begin{Large}
+\begin{center}
+Dexemple François, Luiggi Tristan, Ngo Jean-François, Utard Yannick,  \end{center}
+\end{Large}
+\vspace{.5cm}
+\begin{center}
+\begin{large}
+Octobre 2015
+\end{large}
+\end{center}
+
+\noindent
+\newline
+\newline
+\textit{Nom du groupe :} D.U.N.L. Studio \newline 
+\textit{Nom du projet :} Facificator\newline 
+\textit{Chef de projet :} Dexemple François \newline
+\end{titlepage}
+\newpage
+
+%% ICI sommaire %%
+\newpage
+\tableofcontents
+
+%% Debut Document%%
+\newpage
+\section*{Introduction}
+
+
+
+\newpage
+
+\section{Groupes}
+\subsection{François Dexemple}
+resumer de ta vie en 5-10 lignes
+\subsection{Tristan Luiggi}
+
+Etant passioné d'informatique depuis l'enfance, integrer l'EPITA etait un choix evident lors de mon orientation en Terminale. Ainsi apres une année passer des cette ecole j'ai pu commencer à apprendre quelques languages et me lancer dans des projets. Ces projet me permettent de me confronté a ce que pourait etre mon future metier d'ingenieur et d'ameliorer plusieur conpetances avec celui ci tel aue le travail d'equipe ou encore l'autonomie.
+Le projet de l'année de SUP imposait peu de contrainte et donnait un accèe à un environnement de devellopement assez fourni, cette année nous âssons à la vitesse superieur avec l'arrivé de Linux et du language C. De plus la reconnaissance faciale nous oblige à abordé des notions totalement nouvelles. ce projet estun reel defis qui nous rendera plus autonome et competent à l'aboutissment.
+\subsection{ean-François Ngo}
+resumer de ta vie en 5-10 lignes
+\subsection{Yannick Utard}
+resumer de ta vie en 5-10 lignes
+
+\newpage
+\section{Les tâches effectuées}
+\subsection{Tableau récapitulatif}
+
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+ & François & Tristan & Jean-François & Yannick \\ 
+\hline 
+Conversion d'une image en niveau de gris & • & • & • & 100\% \\ 
+\hline 
+Conversion en image intégrale & • & • & • & 100\% \\ 
+\hline 
+Base de donnée & 90\% & • & • & • \\ 
+\hline 
+Interface graphique & • & • & 100\% & • \\ 
+\hline 
+Adaboost & • & 50\% & • & • \\ 
+\hline 
+Caractéristique & • & • & • & • \\ 
+\hline 
+• & • & • & • & • \\ 
+\hline 
+\end{tabular} 
+
+\subsection{Le traitement d'image}
+
+blabla ici
+
+\subsection{La base de donnée}
+
+blabla ici
+
+\subsection{Adaboost}
+
+re blabla
+
+\subsection{L'interface graphique}
+
+L'interface Graphique permet un controle du programme de maniere beaucoup plus intuitive que du simple code. Ce qui d'une grande importance etqnt donné que toute la population n'est pas expert en informatique. Ainsi le developpement d'une interface graphique permet a de potentiel clint ou collaborateur d'exploiter le programme sans avoir a passer une formation specialiser. 
+L'interface graphique apporte avec de nouvelle manieres de programmer avec elle.
+
+\subsubsection{La programmation Evenementiel}
+L'interface graphique permet le declqnchement d'evenement en fonction de l'utilisateur ainsi la programation classique, c'est a dire l'execution d'algortihme de maniere sequentiel, ne permet pas ce genre d'interactions.  C'est pourquoi une nouvelle philosophie de programation a vu le jour. Tout comme l'orienter objet, la porgramation evenementiel possede ses propre regles.
+
+La structure se decompose en une boucle generale dans laquelle tout les possiblités d'actions de l'utilisateur sont pris en comptese trouve differents module que. Dans cette boucle  plusieurs module, appelles WIDGET ("chose" en anglais), sont definis. Ces widget permettent l'affichage de differentes fenetre, bouton, textes etc..
+Pour que l'utilisateur puisse interargir avec les differentes fenetres definis plutot une nouvelle notion devra etre integre : les fonction callback. C'est fonction on un but tres simple : declanche un evenement (ouverture fenetre, affichage de texte etc...) lorsque l'utilisateur efectue une action precise (survole avec le curseur, clique sur un bouton). Pour effectuer cette tache les fonctions callback possedent toutes la meme structure, trois parametres : un widget, une action et une fonction. Le parametre Widget sert a indiquer quelle objet devra subir l'action pour declancher l'evenement, le parametre action definis le type d'action (clique, survole...) et enfin le dernier paramatre une fonction. Cette fonction decris l'ensemble des intruction a effectuer si l'action est realiser.
+
+La combinaision des widget et des fonction callback permettent la creation d'une interface graphique tres complete et modulable a souhait 
+
+
+
+
+
+
+\newpage
+\section{Les tâches restantes}
+\subsection{Tableau}
+ah bah il y a pas besoin on a finit le projet :D
+\end{document}
