@@ -7,8 +7,7 @@ Requirements:
 - libsdl2-dev
 
 Compilation:
-
-make 
+-> make 
 
 Launch the application: 
 cd GTK/
