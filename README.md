@@ -1,15 +1,13 @@
-# Face-detection
-EPITA project - Viola &amp; Jones method
+# Facificator
+EPITA project - Face detection using the Viola &amp; Jones method, coded in C
 
-Requirements:
+## Requirements
 
-- libgtk-3-dev (gtk+ version 3.16)
-- libsdl2-dev
+* libgtk-3-dev (gtk+ version 3.16)
+* libsdl2-dev
 
-Compilation: make 
+## Usage
 
-Launch the application: 
-
-cd GTK/
-
-./windows
+* `make` 
+* `cd GTK/`
+* `./windows`
